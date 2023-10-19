@@ -9,9 +9,10 @@ int Dig(int num)
 }
 return count;
 }
-System.Console.Write("Напишите число N: ");
+System.Console.Write("Напишите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine(num + " -> " + Dig(num));
+System.Console.WriteLine($"{num} -> {Dig(num)}");
+
 
 
 
